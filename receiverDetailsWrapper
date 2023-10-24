@@ -1,0 +1,31 @@
+import React from "react";
+
+function ReceiverDetailsWrapper({}) {
+return (<table id="receiver-details-wrapper">
+    <tr>
+        <th id="receiver-details-wrapper-col-1"></th>
+        <th id="receiver-details-wrapper-col-2"></th>
+        <th id="receiver-details-wrapper-col-3"></th>
+    </tr>
+    <tr>
+        <td>
+            <b>%company-to%</b>
+            <br />
+            %address-to%<br />
+            %zip-to%, %city-to%<br />
+            %country-to%<br />
+            %client-custom-1%<br />
+            %client-custom-2%<br />
+            %client-custom-3%
+        </td>
+        <td id="details-label-wrapper">
+            <b>%number-title%:</b><br />
+            <b>%date-title%:</b><br />
+        </td>
+        <td>
+            %number%<br />
+            %date%<br />
+        </td>
+    </tr>
+</table>);
+}

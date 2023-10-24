@@ -1,0 +1,181 @@
+body {
+    font-family: 'verdanaregular';
+    /*letter-spacing: 0.0mm !important;*/
+    /*text-align: justify;*/
+    /*font-kerning: auto;*/
+    /*line-height: 80%;*/
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    line-height: 70%;
+}
+
+td,
+.escompte {
+    /*border: 1px black solid;*/
+    font-size: x-small;
+}
+
+#header-col-1 {
+    width: 39%;
+}
+
+#header-col-2 {
+    width: 61%;
+}
+
+/*#header-col-3 {*/
+/*    width: 44%;*/
+/*}*/
+
+#logo-wrapper {
+    vertical-align: top;
+    text-align: left;
+}
+
+#logo {
+    max-width: 200px;
+    max-height: 75px;
+}
+
+#document-type-wrapper {
+    text-align: right;
+    line-height: 1.2;
+    vertical-align: top;
+}
+
+#document-type {
+    font-size: 20px;
+}
+
+#receiver-details-wrapper td {
+    vertical-align: top;
+}
+
+#receiver-details-wrapper td:nth-child(2) {
+    text-align: right;
+}
+
+#receiver-details-wrapper-col-1 {
+    width: 50%;
+}
+
+#receiver-details-wrapper-col-2 {
+    width: 35%;
+}
+
+#receiver-details-wrapper-col-3 {
+    width: 15%;
+}
+
+#products-table-col-1 {
+    width: 40%;
+}
+
+#products-table-col-2 {
+    width: 5%;
+}
+
+#products-table-col-3 {
+    width: 15%;
+}
+
+#products-table-col-4 {
+    width: 15%;
+}
+
+#products-table-col-5 {
+    width: 15%;
+}
+
+#products-table thead tr td:nth-child(2) {
+    text-align: center;
+}
+
+#products-table thead tr td:nth-child(3),
+#products-table thead tr td:nth-child(4) {
+    text-align: right;
+}
+
+#products-table tbody tr td:nth-child(3),
+#products-table tbody tr td:nth-child(4) {
+    text-align: right;
+}
+
+#total-wrapper-col-1 {
+    width: 60%;
+}
+
+#total-wrapper-col-2 {
+    width: 24%;
+}
+
+#total-wrapper-col-3 {
+    width: 16%;
+}
+
+#total-wrapper td {
+    text-align: right;
+}
+
+#bottom-notice-wrapper-col-1 {
+    width: 100%;
+}
+
+
+#bottom-notice-wrapper tbody tr td {
+    text-align: center;
+}
+
+td.product-description {
+    padding: 20px 0px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+#prestation-table-info {
+    text-transform: uppercase;
+    color: #003665;
+}
+
+.checkbox {
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #000;
+}
+
+.black-bg {
+    background-color: #000;
+}
+
+.financement {
+    page-break-inside: avoid;
+    border: 1px solid #000;
+    padding: 20px 0px;
+}
+
+.cgvimg {
+    page-break-inside: avoid;
+}
+
+.cgvimg img {
+    page-break-inside: avoid;
+    height: 782px;
+    width: 535px;
+}

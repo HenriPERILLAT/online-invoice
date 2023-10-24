@@ -1,0 +1,25 @@
+import React from "react";
+
+function TableHeader({}) {
+return (<table id="header">
+    <tr>
+        <th id="header-col-1"></th>
+        <th id="header-col-2"></th>
+    </tr>
+    <tr>
+        <td id="logo-wrapper">
+            %logo%
+        </td>
+        <td id="document-type-wrapper">
+            <p id="document-type">%document-title%</p><br />
+            <b>%company-from%</b><br />
+            %address-from%<br />
+            %zip-from%, %city-from%<br />
+            %country-from%<br />
+            Interlocuteur: %sender-custom-1%<br />
+            %sender-custom-2%<br />
+            %sender-custom-3%
+        </td>
+    </tr>
+</table>);
+}

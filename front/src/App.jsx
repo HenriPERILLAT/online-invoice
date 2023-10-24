@@ -2,20 +2,27 @@ import { DropDown } from './components/DropDown';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'
+import InvoiceForm from './components/InvoiceForm';
+
+
 
 
 
 function App() {
-  const [data, setData] = useState([]);
+
+  const [services, setServices] = useState([]);
 
   useEffect(() => {
     axios.get('http://localhost:5000/api/invoiceData')
-      .then(response => setData(response.data))
+      .then(response => setServices(response.data))
       .catch(error => console.error(error));
   }, []);
 
   return (
-    <DropDown data={data} />
+    <>
+      {/* <DropDown services={services} /> */}
+      <InvoiceForm services={services} />
+    </>
   );
 }
 
